@@ -49,7 +49,7 @@ export default function Book() {
       <h1 className="text-4xl font-bold mb-6">❤️ Happy Valentine's Day ❤️</h1>
 
       {/* Flipbook Container */}
-      <HTMLFlipBook width={400} height={500} className="shadow-2xl">
+      <HTMLFlipBook width={400} height={500} className="shadow-2xl" style={{}} startPage={0} size={"fixed"} minWidth={0} maxWidth={0} minHeight={0} maxHeight={0} drawShadow={false} flippingTime={0} usePortrait={false} startZIndex={0} autoSize={false} maxShadowOpacity={0} showCover={false} mobileScrollSupport={false} clickEventForward={false} useMouseEvents={false} swipeDistance={0} showPageCorners={false} disableFlipByClick={false}>
         {/* Cover Page with Centered Text */}
         <div className="w-full h-full flex flex-col items-center justify-center bg-purple text-white text-center py-48">
           <h2 className="text-3xl font-bold">This is for you boo 🥺</h2>
