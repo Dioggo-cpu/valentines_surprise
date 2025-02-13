@@ -51,7 +51,7 @@ export default function Book() {
         alert(`Congratulations Boo! You Won all my love! Final Score: ${score}`);
         setTimeout(() => {
             router.push("/Book");
-            }, 2000);
+            }, 100);
     }
   }, [hearts, score, router]);
 
